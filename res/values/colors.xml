@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff008000</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="saffron_yellow">#ffff9900</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="msg_unread">#ffd6d6d6</color>
+    <color name="msg_read">#ff636363</color>
+    <color name="gray">#ffffffd6</color>
+    <color name="background">#ff000000</color>
+    <color name="control_back">#aa00003d</color>
+    <color name="dialog_back">#330000ff</color>
+    <color name="button_bg">#ff5fc4d5</color>
+    <color name="button_close_pressed_bg">#ff3c95a9</color>
+    <color name="channel_detail_small_play_pressed">#ffffd04d</color>
+    <color name="control_back1">#e0000000</color>
+    <color name="title_blue">#ff36a0ec</color>
+    <color name="start_font">#fffffc00</color>
+    <color name="bg">#ff43484c</color>
+    <color name="detail_stored">#ff858585</color>
+    <color name="widget_time">#ffd0914b</color>
+    <color name="widget_title">#ffbbe3fe</color>
+    <color name="transparent">#00000000</color> 
+</resources>

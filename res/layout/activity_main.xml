@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.testkeylisten.MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button4"
+        android:nextFocusLeft="@+id/button2"
+        android:nextFocusRight="@+id/button4"
+        android:nextFocusUp="@+id/button2"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button1"
+        android:nextFocusLeft="@+id/button3"
+        android:nextFocusRight="@+id/button1"
+        android:nextFocusUp="@+id/button3"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button2"
+        android:nextFocusLeft="@+id/button6"
+        android:nextFocusRight="@+id/button2"
+        android:nextFocusUp="@+id/button6"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button5"
+        android:nextFocusLeft="@+id/button1"
+        android:nextFocusRight="@+id/button5"
+        android:nextFocusUp="@+id/button1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button8"
+        android:nextFocusLeft="@+id/button4"
+        android:nextFocusRight="@+id/button8"
+        android:nextFocusUp="@+id/button4"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button3"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button3"
+        android:nextFocusLeft="@+id/button7"
+        android:nextFocusRight="@+id/button3"
+        android:nextFocusUp="@+id/button7"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:layout_toRightOf="@+id/button7"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button7"
+        android:nextFocusLeft="@+id/button5"
+        android:nextFocusRight="@+id/button7"
+        android:nextFocusUp="@+id/button5"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button6"
+        android:layout_toRightOf="@+id/button6"
+        android:background="@drawable/selector_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:nextFocusDown="@+id/button6"
+        android:nextFocusLeft="@+id/button8"
+        android:nextFocusRight="@+id/button6"
+        android:nextFocusUp="@+id/button8"
+        android:text="Button" />
+
+</RelativeLayout>
